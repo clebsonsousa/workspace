@@ -1,0 +1,4 @@
+insert into contatos (nome,email,endereco,dataNascimento) values("Clebson Insercao 2","email insercao 2","enderecao insercao 2",1981/01/18);
+update contatos set nome='Teste Clebson' where id=1;
+select * from contatos;
+select 
