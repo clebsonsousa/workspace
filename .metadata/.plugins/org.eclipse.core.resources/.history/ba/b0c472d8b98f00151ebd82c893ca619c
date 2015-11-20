@@ -21,7 +21,7 @@ public class TarefasController {
 	  public String adiciona(@Valid Tarefa tarefa, BindingResult result){
 		  
 		if(result.hasErrors()) {
-		  return "tarefa/formulario";
+			  return "tarefa/formulario";
 		}
 
 		JdbcTarefaDao dao = new JdbcTarefaDao();

@@ -20,11 +20,10 @@ public class TarefasController {
 	  @RequestMapping("adicionaTarefa")
 	  public String adiciona(@Valid Tarefa tarefa, BindingResult result){
 		  
-		if(result.hasErrors()) {
-		  return "tarefa/formulario";
-		}
-
-		JdbcTarefaDao dao = new JdbcTarefaDao();
+		  if(result.hasErrors()) {
+			  return "tarefa/formulario";
+			}
+	  	JdbcTarefaDao dao = new JdbcTarefaDao();
 		dao.adiciona(tarefa);
 		return "tarefas/adicionada";
 	}
