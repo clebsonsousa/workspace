@@ -69,3 +69,9 @@
 0:0:0:0:0:0:0:1 - - [20/Nov/2015:16:54:07 -0200] "POST /fj21-tarefas/adicionaTarefa HTTP/1.1" 200 291
 0:0:0:0:0:0:0:1 - - [20/Nov/2015:16:54:07 -0200] "POST /fj21-tarefas/adicionaTarefa HTTP/1.1" 200 291
 127.0.0.1 - - [20/Nov/2015:17:07:08 -0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [20/Nov/2015:17:14:43 -0200] "POST /fj21-tarefas/adicionaTarefa HTTP/1.1" 404 1090
+0:0:0:0:0:0:0:1 - - [20/Nov/2015:17:14:52 -0200] "GET /fj21-tarefas/novaTarefa HTTP/1.1" 200 291
+0:0:0:0:0:0:0:1 - - [20/Nov/2015:17:14:54 -0200] "POST /fj21-tarefas/adicionaTarefa HTTP/1.1" 404 1090
+127.0.0.1 - - [20/Nov/2015:17:15:33 -0200] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [20/Nov/2015:17:15:50 -0200] "GET /fj21-tarefas/novaTarefa HTTP/1.1" 200 291
+0:0:0:0:0:0:0:1 - - [20/Nov/2015:17:15:53 -0200] "POST /fj21-tarefas/adicionaTarefa HTTP/1.1" 200 291
