@@ -10,8 +10,7 @@ import javax.validation.constraints.Size;
 public class Tarefa {
 	  private Long id;
 	  
-	  @NotNull(message="A descrição deve ser preenchida")  
-	  @Size(min=5, message="Descrição deve ter pelo menos 5 carateres")
+	  @NotNull @Size(min=5)
 	  private String descricao;
 	  
 	  private boolean finalizado;
