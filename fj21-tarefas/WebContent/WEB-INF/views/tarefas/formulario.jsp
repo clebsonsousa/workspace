@@ -1,14 +1,15 @@
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <html>
-  <body>
-    <h3>Adicionar tarefas</h3>
+<body>
+  <h3>Adicionar tarefas</h3>
   <form action="adicionaTarefa" method="post">
     Descrição:
-			<br/>
+            <br/>
     <textarea rows="5" cols="100" name="descricao"></textarea> 
-			<br/>     
-			<br/>
+            <br/>     
+    <form:errors path="tarefa.descricao" cssStyle="color:red"/>
+            <br/>
     <input type="submit" value="Adicionar"/>
   </form>
-  </body>
+</body>
 </html>
