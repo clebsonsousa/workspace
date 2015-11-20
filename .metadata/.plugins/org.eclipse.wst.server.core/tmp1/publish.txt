@@ -1,0 +1,3 @@
+#Tomcat publish data
+#Fri Nov 20 14:12:03 BRST 2015
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Murloc\\.m2\\repository\\org\\springframework\\spring-web\\4.2.2.RELEASE\\spring-web-4.2.2.RELEASE.jar=WEB-INF/lib/spring-web-4.2.2.RELEASE.jar
