@@ -1979,3 +1979,5 @@ java.io.InvalidClassException: org.eclipse.m2e.core.internal.project.registry.Ba
 2015-12-02 02:51:51,943 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Murloc\workspace\fj21-tarefas\src\main\resources
 2015-12-02 02:51:51,947 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-12-02 02:51:51,947 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Murloc\workspace\fj21-tarefas\src\test\resources
+2015-12-02 02:52:45,875 [Framework stop] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@d4f079b{HTTP/1.1}{0.0.0.0:0}
+2015-12-02 02:52:45,993 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@78ab5e1a{/wse,null,UNAVAILABLE}
