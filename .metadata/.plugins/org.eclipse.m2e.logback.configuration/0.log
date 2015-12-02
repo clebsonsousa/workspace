@@ -1975,3 +1975,7 @@ java.io.InvalidClassException: org.eclipse.m2e.core.internal.project.registry.Ba
 2015-12-02 02:51:01,945 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Murloc\workspace\fj21-tarefas\src\main\resources
 2015-12-02 02:51:01,946 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-12-02 02:51:01,949 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Murloc\workspace\fj21-tarefas\src\test\resources
+2015-12-02 02:51:51,942 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-02 02:51:51,943 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Murloc\workspace\fj21-tarefas\src\main\resources
+2015-12-02 02:51:51,947 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-12-02 02:51:51,947 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Murloc\workspace\fj21-tarefas\src\test\resources

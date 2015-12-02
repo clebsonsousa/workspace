@@ -1,6 +1,9 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <html>
 <body>
+
+ <a href="listaTarefas">Listar Tarefas</a> 
+
   <h3>Adicionar tarefas</h3>
   <form action="adicionaTarefa" method="post">
     Descrição:
