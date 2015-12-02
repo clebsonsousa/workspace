@@ -40,7 +40,7 @@ public class TarefasController {
 		List<Tarefa> tarefas = dao.lista();
 
 		model.addAttribute("tarefas", tarefas);
-		return "tarefa/lista";
+		return "tarefas/lista";
 	}
 }
  
