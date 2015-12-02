@@ -42,5 +42,14 @@ public class TarefasController {
 		model.addAttribute("tarefas", tarefas);
 		return "tarefas/lista";
 	}
+	
+	@RequestMapping("removeTarefa")
+	public String remove(Tarefa tarefa){
+
+		JdbcTarefaDao dao = new JdbcTarefaDao();
+		dao.remove(tarefa);
+		
+		return "tarefas/remove";
+	}
 }
  

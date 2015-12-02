@@ -75,3 +75,4 @@
 0:0:0:0:0:0:0:1 - - [02/Dec/2015:02:59:39 -0200] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 404 1080
 0:0:0:0:0:0:0:1 - - [02/Dec/2015:02:59:39 -0200] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 404 1080
 0:0:0:0:0:0:0:1 - - [02/Dec/2015:02:59:52 -0200] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 6443
+0:0:0:0:0:0:0:1 - - [02/Dec/2015:03:02:02 -0200] "GET /fj21-tarefas/listaTarefas HTTP/1.1" 200 8506
