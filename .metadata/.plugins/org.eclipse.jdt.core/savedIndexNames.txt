@@ -1,6 +1,2 @@
 INDEX VERSION 1.127+C:\Users\Murloc\workspace\.metadata\.plugins\org.eclipse.jdt.core
-3177819030.index
-2344464649.index
-749720745.index
-315112513.index
 1941598180.index
