@@ -40,7 +40,7 @@ public class JdbcTarefaDao {
 
 	}
 
-	public List<Tarefa> lista(Tarefa tarefa) {
+	public List<Tarefa> lista() {
 		
 		String sql = "select * from tarefas";
 		
@@ -50,6 +50,7 @@ public class JdbcTarefaDao {
 			 ResultSet result = stmt.executeQuery();
 			 
 			 while(result.next()){
+				 Tarefa tarefa = new Tarefa();
 				 tarefa.setId(result.getLong("id"));
 				 tarefa.setDescricao(result.getString("descricao"));
 				 tarefa.setFinalizado(result.getBoolean("finalizado"));
